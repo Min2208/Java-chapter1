@@ -11,7 +11,7 @@ public class Prime {
             int i =2;
             boolean check = true;
             while (i<=Math.sqrt(number)){
-                if (i%number==0){
+                if (number%i==0){
                     check=false;
                     break;
                 }
