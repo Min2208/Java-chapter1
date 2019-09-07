@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8aff19-cbb5-4d18-8c35-877f239a0f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrintCountPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrintPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UCLN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VndUsd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,10 +12,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ConvertNumberToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ConvertNumberToString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Prime.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Prime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConvertNumberToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConvertNumberToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,16 +74,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConvertNumberToString">
+  <component name="RunManager" selected="Application.Rectangle">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="web-app.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BMI" />
       <module name="web-app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prime" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="web-app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,8 +103,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintPrime" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rectangle" />
+      <module name="web-app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VndUsd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VndUsd" />
       <module name="web-app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,19 +119,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.BMI" />
-      <item itemvalue="Application.PrintPrime" />
-      <item itemvalue="Application.Prime" />
       <item itemvalue="Application.PrintCountPrime" />
       <item itemvalue="Application.ConvertNumberToString" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.VndUsd" />
+      <item itemvalue="Application.Rectangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="Application.VndUsd" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ConvertNumberToString" />
         <item itemvalue="Application.PrintCountPrime" />
-        <item itemvalue="Application.Prime" />
-        <item itemvalue="Application.PrintPrime" />
-        <item itemvalue="Application.BMI" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +149,11 @@
       <workItem from="1567698168845" duration="2778000" />
       <workItem from="1567701057143" duration="4235000" />
       <workItem from="1567737500084" duration="12625000" />
-      <workItem from="1567783086829" duration="2665000" />
+      <workItem from="1567783086829" duration="3902000" />
+      <workItem from="1567823371724" duration="1709000" />
+      <workItem from="1567827713531" duration="621000" />
+      <workItem from="1567831489329" duration="896000" />
+      <workItem from="1567868185360" duration="3786000" />
     </task>
     <servers />
   </component>

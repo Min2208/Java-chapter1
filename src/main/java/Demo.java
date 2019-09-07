@@ -1,13 +1,28 @@
 import java.util.Scanner;
+
 public class Demo {
     public static void main(String[] args) {
-        double x = 16 - 2;
-        if(x < 16) {
-            System.out.println("A");
-        } else if(x < 15) {
-            System.out.println("B");
+        int a, b;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number 1: ");
+        a = sc.nextInt();
+        System.out.println("Enter number 2: ");
+        b = sc.nextInt();
+
+        a = Math.abs(a);
+        b = Math.abs(b);
+
+        if (a == 0 || b == 0) {
+            System.out.println("Ko co UCLN");
         } else {
-            System.out.println("C");
+            while (a != b) {
+                if (a > b) {
+                    a = a - b;
+                } else {
+                    b = b - a;
+                }
+            }
+            System.out.println("UCLN " + a);
         }
     }
 }
